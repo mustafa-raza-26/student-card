@@ -1,0 +1,106 @@
+body {
+    background: linear-gradient(135deg, #d9fff9, #9ddcff);
+    /* min-height: 100vh; */
+}
+
+.student-card {
+    width: 100%;
+    min-height: 180px;
+    padding: 20px;
+    display: flex;
+    gap: 15px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.35);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    box-shadow:
+        0 15px 35px rgba(0, 100, 180, 0.15),
+        inset 0 1px 1px rgba(255, 255, 255, 0.7);
+}
+
+.student-img {
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.student-content {
+    flex: 1;
+}
+
+.student-content h5 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+    color: #111;
+}
+
+.course {
+    margin: 3px 0 7px;
+    font-size: 15px;
+    color: #555;
+    font-weight: 600;
+}
+
+.description {
+    margin: 0 0 12px;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #333;
+}
+
+.stats {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 12px;
+}
+
+.stats div {
+    display: flex;
+    flex-direction: column;
+}
+
+.stats strong {
+    font-size: 12px;
+    color: #111;
+}
+
+.stats small {
+    font-size: 10px;
+    color: #666;
+}
+
+.buttons {
+    display: flex;
+    gap: 7px;
+}
+
+.buttons button {
+    padding: 5px 14px;
+    font-size: 12px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.follow-btn {
+    background: #000;
+    color: white;
+    border: 1px solid #000;
+}
+
+.profile-btn {
+    background: rgba(255, 255, 255, 0.5);
+    color: #222;
+    border: 1px solid #999;
+}
+
+.follow-btn:hover {
+    background: #222;
+}
+
+.profile-btn:hover {
+    background: white;
+}
